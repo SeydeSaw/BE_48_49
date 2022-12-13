@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Dog {
 
     String name;
@@ -8,7 +10,7 @@ public class Dog {
 
 
     public void voiceDog(String say){
-        System.out.println("Dog say - " + say);
+        System.out.println("lesson2.Dog say - " + say);
     }
 
 }

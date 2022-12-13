@@ -1,3 +1,5 @@
+package lesson2;
+
 public class Cat {
 
     String name;
@@ -9,8 +11,7 @@ public class Cat {
     String breed;
 
     public void voiceCat(){
-        System.out.println("Cat say MEOW");
+        System.out.println("lesson2.Cat say MEOW");
     }
-
 
 }

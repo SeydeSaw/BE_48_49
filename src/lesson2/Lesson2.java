@@ -1,3 +1,5 @@
+package lesson2;
+
 import com.sun.source.util.SourcePositions;
 
 public class Lesson2 {
@@ -82,7 +84,6 @@ public class Lesson2 {
 
 
     }
-
 
 
 

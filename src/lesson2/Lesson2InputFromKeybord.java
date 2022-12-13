@@ -1,3 +1,5 @@
+package lesson2;
+
 import java.util.Scanner; //подключает Scanner
 
 public class Lesson2InputFromKeybord {

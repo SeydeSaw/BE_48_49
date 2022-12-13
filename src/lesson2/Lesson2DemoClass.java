@@ -1,3 +1,8 @@
+package lesson2;
+
+import lesson2.Cat;
+import lesson2.Dog;
+
 public class Lesson2DemoClass {
 
     public static void main(String[] args) {
