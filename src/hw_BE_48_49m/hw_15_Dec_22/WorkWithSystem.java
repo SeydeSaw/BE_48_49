@@ -1,4 +1,4 @@
-package hw_BE_48_29.hw_15_Dec_22;
+package hw_BE_48_49m.hw_15_Dec_22;
 
 public class WorkWithSystem {
 
@@ -23,6 +23,8 @@ public class WorkWithSystem {
         int n6 = input % 10;
         System.out.println("200345 разложено на разряды: " + (n1 + " " + n2 + " " + n3 + " " + n4 + " " + n5 + " " + n6));
         System.out.println();// пустая строка, для удобного чтения результата
+
+
 
         //2
         //перевод числа из десятичной в 16-ричную:
