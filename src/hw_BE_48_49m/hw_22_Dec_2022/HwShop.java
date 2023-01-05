@@ -1,4 +1,4 @@
-package hw_BE_48_49m.hw_05_Jan_23;
+package hw_BE_48_49m.hw_22_Dec_2022;
 
 /*
 Создайте две переменные isEdekaOpen и isReweOpen,
@@ -17,8 +17,10 @@ public class HwShop {
         boolean isEdekaOpen = true;
         boolean isReweOpen = true;
 
+        // | Условное ИЛИ. Возвращает true если хотя бы один из операндов равен true.
+        //a = true; b = false; тогда a | b == true
 
-        if (isEdekaOpen || isReweOpen) {
+        if (isEdekaOpen | isReweOpen) {
             boolean canBuy = true;
             System.out.println("Я могу купить еду, это " + canBuy);
         }

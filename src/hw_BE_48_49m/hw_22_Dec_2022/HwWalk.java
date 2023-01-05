@@ -1,4 +1,4 @@
-package hw_BE_48_49m.hw_05_Jan_23;
+package hw_BE_48_49m.hw_22_Dec_2022;
 
 /*  Задача 1 :
 Создайте две переменные isWeekend и isRain.
@@ -13,7 +13,9 @@ public class HwWalk {
         boolean isWeekend = true;
         boolean isRain = false;
 
-        if (isWeekend && !isRain) {
+        // ^ Логическое исключающее: a = true; b = false; тогда a ^ b == true
+
+        if (isWeekend ^ isRain) {
             boolean canWalk = true;
             System.out.println(canWalk + " : Идём гулять");
 
