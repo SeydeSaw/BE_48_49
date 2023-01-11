@@ -13,9 +13,7 @@ public class HwWalk {
         boolean isWeekend = true;
         boolean isRain = false;
 
-        // ^ Логическое исключающее: a = true; b = false; тогда a ^ b == true
-
-        if (isWeekend ^ isRain) {
+        if (isWeekend && !isRain) {
             boolean canWalk = true;
             System.out.println(canWalk + " : Идём гулять");
 
