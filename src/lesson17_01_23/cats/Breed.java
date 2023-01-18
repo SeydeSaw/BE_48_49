@@ -1,7 +1,6 @@
-package lesson17_01_23;
+package lesson17_01_23.cats;
 
 public class Breed {
-
     int id;
     String breedName;
 
@@ -17,5 +16,4 @@ public class Breed {
                 ", breedName='" + breedName + '\'' +
                 '}';
     }
-
 }

@@ -1,6 +1,7 @@
-package lesson17_01_23;
+package lesson17_01_23.cats;
 
 public class Cat {
+
     int idCat;
     String name;
     Breed breedName;
